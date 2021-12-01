@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light/Night Mode</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Top Navigation -->
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-list__item"><a href="#home" class="nav-list__link">Home</a></li>
+                <li class="nav-list__item"><a href="#about" class="nav-list__link">About</a></li>
+                <li class="nav-list__item"><a href="#projects" class="nav-list__link">Projects</a></li>
+                <li class="nav-list__item"><a href="#contact" class="nav-list__link">Contact</a></li>
+            </ul>
+            <div class="mode-toggle">
+                <p class="mode-text">Light Mode</p>
+                <i class="fas fa-sun mode-icon"></i>
+                <div class="mode-btn" id="triggerBtn"></div>
+                <i class="fas fa-moon mode-icon"></i>
+            </div>
+        </nav>
+        <!-- Hero Section -->
+        <section id="home">
+            <h1 class="title home-title">This is from Shayan</h1>
+            <p class="hero-par">Welcome to your website!</p>
+        </section>
+
+        <!-- About Section -->
+        <section id="about">
+            <h2 class="title section-title">Undraw Illustration</h2>
+            <div class="services">
+                <div class="service">
+                    <h3 class="service__title">Web Programming</h3>
+                </div>
+                <div class="service">
+                    <h3 class="service__title">Startup</h3>
+                </div>
+                <div class="service">
+                    <h3 class="service__title">Prototyping</h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects">
+            <h2 class="title section-title">Buttons</h2>
+            <div class="projects__buttons">
+                <button class="btn btn-primary">Primary</button>
+                <button class="btn btn-secondary">Secondary</button>
+                <button class="btn btn-disabled" disabled>Disabled</button>
+                <button class="btn btn-outline">Outline</button>
+                <button class="btn btn-alt-outline">Alt Outline</button>
+            </div>
+            <div class="projects__text">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis earum nulla recusandae quasi ipsum soluta, repellendus maxime id, sequi atque consequatur dolorum sapiente quis? Vel fugit optio expedita rem id?
+
+            </div>
+        </section>
+
+        <!-- Contact Logo Sections -->
+        <section id="contact">
+            <a href="https://github.com/ShayanFaghihi"><i class="fab fa-github social-icon"></i></a>
+            <a href="https://www.linkedin.com/in/shayanfaghihi/"><i class="fab fa-linkedin social-icon"></i></a>
+            <a href="https://www.instagram.com/shayanfaghihi/"> <i class="fab fa-instagram social-icon"></i></a>
+            <a href="https://www.youtube.com/channel/UCXZBAbdokOCcpRTiHgz-r6g"> <i class="fab fa-youtube social-icon"></i></a>
+            <a href="https://t.me/ShayanAmigo"> <i class="fab fa-telegram social-icon"></i></a>
+        </section>
+
+
+    </div> <!--End of Container-->
+
+    <script src="script.js"></script>
+</body>
+</html>
